@@ -8,14 +8,10 @@ E {}
 T {Testbench for ring oscillator.} 660 -650 0 0 0.4 0.4 {}
 T {We prepare for bad routing, high R of 1k, high cap of 10p} 780 -440 0 0 0.4 0.4 {}
 N 380 -200 380 -140 { lab=GND}
-N 380 -140 550 -140 { lab=GND}
+N 460 -140 550 -140 { lab=GND}
 N 380 -470 380 -260 { lab=vdd}
 N 380 -470 550 -470 {
 lab=vdd}
-N 550 -300 570 -300 {
-lab=GND}
-N 550 -300 550 -140 {
-lab=GND}
 N 550 -320 570 -320 {
 lab=vdd}
 N 550 -470 550 -320 {
@@ -36,10 +32,19 @@ N 970 -320 1320 -320 {
 lab=clk}
 N 870 -300 1020 -300 {
 lab=#net2}
-N 1080 -300 1160 -300 {
+N 1080 -300 1200 -300 {
 lab=sens}
-N 1160 -300 1200 -300 {
-lab=sens}
+N 550 -280 570 -280 {
+lab=GND}
+N 550 -280 550 -140 {
+lab=GND}
+N 460 -200 460 -140 {
+lab=GND}
+N 460 -300 460 -260 {
+lab=vena}
+N 460 -300 570 -300 {
+lab=vena}
+N 380 -140 460 -140 { lab=GND}
 C {devices/code.sym} 30 -290 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval( @value )"
@@ -77,7 +82,7 @@ C {devices/vsource.sym} 380 -230 0 0 {name=Vdd value=1.8
 C {devices/lab_wire.sym} 480 -470 0 0 {name=l3 lab=vdd}
 C {devices/gnd.sym} 380 -140 0 0 {name=l4 lab=GND}
 C {devices/title.sym} 160 -30 0 0 {name=l1 author="Harald Pretl"}
-C {ringosc.sym} 720 -310 0 0 {name=x1}
+C {ringosc.sym} 720 -300 0 0 {name=x1}
 C {devices/capa.sym} 1200 -250 0 0 {name=C1
 m=1
 value=10p
@@ -102,3 +107,7 @@ value=1k
 footprint=1206
 device=resistor
 m=1}
+C {devices/spice_probe.sym} 550 -300 0 0 {name=p3 attrs=""}
+C {devices/vsource.sym} 460 -230 0 0 {name=Vdd1 value=1.8
+}
+C {devices/lab_wire.sym} 500 -300 0 0 {name=l6 lab=vena}

@@ -5,7 +5,7 @@ K {}
 V {}
 S {}
 E {}
-T {Delay cell (weak inverter with cap load) for ring oscillator.} 240 -160 0 0 0.4 0.4 {}
+T {Delay cell (weak inverter with cap load) for ring oscillator (with enable).} 240 -160 0 0 0.4 0.4 {}
 N 460 -470 530 -470 { lab=vdd}
 N 460 -350 530 -350 { lab=vss}
 N 530 -350 530 -200 { lab=vss}
@@ -79,9 +79,29 @@ N 400 -270 420 -270 {
 lab=in}
 N 460 -580 460 -520 {
 lab=vdd}
-C {devices/ipin.sym} 300 -620 0 0 {name=p1 lab=vdd}
-C {devices/ipin.sym} 310 -200 0 0 {name=p2 lab=vss}
-C {devices/ipin.sym} 300 -410 0 0 {name=p3 lab=in}
+N 360 -620 360 -560 {
+lab=vdd}
+N 360 -500 360 -470 {
+lab=in}
+N 360 -470 400 -470 {
+lab=in}
+N 360 -530 430 -530 {
+lab=vdd}
+N 430 -620 430 -530 {
+lab=vdd}
+N 210 -530 230 -530 {
+lab=ena}
+N 210 -620 300 -620 {
+lab=vdd}
+N 220 -200 310 -200 {
+lab=vss}
+N 210 -410 300 -410 {
+lab=in}
+N 230 -530 320 -530 {
+lab=ena}
+C {devices/ipin.sym} 210 -620 0 0 {name=p1 lab=vdd}
+C {devices/ipin.sym} 220 -200 0 0 {name=p2 lab=vss}
+C {devices/ipin.sym} 210 -410 0 0 {name=p3 lab=in}
 C {devices/opin.sym} 940 -410 0 0 {name=p4 lab=out}
 C {devices/title.sym} 160 -30 0 0 {name=l1 author="Harald Pretl"}
 C {sky130_fd_pr/pfet_01v8.sym} 440 -470 0 0 {name=M1
@@ -154,3 +174,18 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
+C {sky130_fd_pr/pfet_01v8.sym} 340 -530 0 0 {name=M6
+L=1
+W=10
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {devices/ipin.sym} 210 -530 0 0 {name=p5 lab=ena}
