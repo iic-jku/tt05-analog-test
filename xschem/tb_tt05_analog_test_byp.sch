@@ -42,10 +42,6 @@ N 1430 -680 1490 -680 {
 lab=GND}
 N 1430 -660 1490 -660 {
 lab=GND}
-N 460 -820 1490 -820 {
-lab=enable}
-N 460 -820 460 -260 {
-lab=enable}
 N 380 -1040 380 -260 {
 lab=vdd}
 N 1430 -800 1430 -780 {
@@ -66,8 +62,6 @@ N 1430 -1020 1490 -1020 {
 lab=GND}
 N 1430 -980 1490 -980 {
 lab=GND}
-N 1430 -900 1490 -900 {
-lab=GND}
 N 1790 -560 1950 -560 {
 lab=#net1}
 N 1790 -540 2060 -540 {
@@ -76,9 +70,9 @@ N 1430 -1000 1430 -980 {
 lab=GND}
 N 380 -1040 1490 -1040 {
 lab=vdd}
-N 1430 -900 1430 -800 {
+N 1430 -880 1430 -800 {
 lab=GND}
-N 1430 -980 1430 -900 {
+N 1430 -980 1430 -880 {
 lab=GND}
 N 1430 -140 2240 -140 { lab=GND}
 N 1160 -140 1430 -140 { lab=GND}
@@ -118,25 +112,31 @@ lab=GND}
 N 800 -140 960 -140 { lab=GND}
 N 960 -140 1060 -140 { lab=GND}
 N 1060 -140 1160 -140 { lab=GND}
-N 960 -880 1490 -880 {
-lab=out_short}
-N 960 -880 960 -260 {
+N 960 -820 960 -260 {
 lab=out_short}
 N 1060 -860 1060 -260 {
 lab=out_ro}
 N 1060 -860 1490 -860 {
 lab=out_ro}
-N 1160 -840 1490 -840 {
+N 960 -820 1490 -820 {
+lab=out_short}
+N 460 -840 1490 -840 {
+lab=enable}
+N 460 -840 460 -260 {
+lab=enable}
+N 1430 -880 1490 -880 {
+lab=GND}
+N 1160 -900 1490 -900 {
 lab=out_dac}
-N 1160 -840 1160 -260 {
+N 1160 -900 1160 -260 {
 lab=out_dac}
-N 2500 -340 2500 -140 {
+N 2500 -280 2500 -140 {
 lab=GND}
 N 2360 -140 2500 -140 {
 lab=GND}
-N 2360 -560 2500 -560 {
+N 2500 -560 2500 -340 {
 lab=clk}
-N 2500 -560 2500 -400 {
+N 2360 -560 2500 -560 {
 lab=clk}
 C {devices/code.sym} 30 -290 0 0 {name=TT_MODELS
 only_toplevel=true
@@ -233,16 +233,17 @@ C {devices/vsource.sym} 720 -350 0 0 {name=Vdd2 value="1.8 pwl(0 0 2u 0 2.01u 1.
 }
 C {devices/vsource.sym} 640 -350 0 0 {name=Vdd4 value="1.8 pwl(0 0 4u 0 4.01u 1.8)"
 }
-C {devices/lab_wire.sym} 530 -820 0 0 {name=l30 lab=enable}
-C {devices/spice_probe.sym} 560 -820 0 0 {name=p3 attrs=""}
+C {devices/lab_wire.sym} 520 -840 0 0 {name=l30 lab=enable}
+C {devices/spice_probe.sym} 550 -840 0 0 {name=p3 attrs=""}
 C {devices/vsource.sym} 960 -230 0 0 {name=Vshort value=1.8
 }
 C {devices/vsource.sym} 1060 -230 0 0 {name=Vro_out value=0
 }
 C {devices/vsource.sym} 1160 -230 0 0 {name=Vdac_out value=0
 }
-C {devices/lab_wire.sym} 1090 -880 0 0 {name=l31 lab=out_short}
-C {devices/lab_wire.sym} 1180 -860 0 0 {name=l32 lab=out_ro}
-C {devices/lab_wire.sym} 1270 -840 0 0 {name=l33 lab=out_dac}
-C {devices/vsource.sym} 2500 -370 0 0 {name=Vramp value="1.8 pwl(0 0 20u 1.8)"
+C {devices/lab_wire.sym} 1030 -820 0 0 {name=l31 lab=out_short}
+C {devices/lab_wire.sym} 1110 -860 0 0 {name=l32 lab=out_ro}
+C {devices/lab_wire.sym} 1220 -900 0 0 {name=l33 lab=out_dac}
+C {devices/vsource.sym} 2500 -310 0 0 {name=Vena1 value="0 pwl(0 0 20u 1.8)"
+
 }

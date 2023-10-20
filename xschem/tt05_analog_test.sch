@@ -7,29 +7,37 @@ S {}
 E {}
 T {Analog test macro for TinyTapeout05.
 
-Contains an 500kHz ring oscillator plus a 3-bit R-2R DAC.
+(c) 2023 Harald Pretl, II@JKU
+
+Contains a 500kHz ring oscillator plus a 3-bit R-2R DAC.
 Transmission gates allow to isolate the analog outputs, or short them.} 780 -1600 0 0 0.4 0.4 {}
+T {IN[2:0]: Digital input for 3b DAC
+IN[3]:   Connect DAC to UA[1]
+IN[4]:   Not used
+IN[5]:   Connect ring oscillator to UA[0]
+IN[6]:   Enable ring oscillator
+IN[7]:   Short analog IOs UA[0] and UA[1]} 260 -360 0 0 0.4 0.4 {}
 N 1160 -650 1580 -650 {
-lab=ro_int}
+lab=dac_int}
 N 1700 -520 1980 -520 {
 lab=ua[1]}
 N 1720 -560 1980 -560 {
 lab=ua[0]}
-N 280 -1360 720 -1360 {
+N 280 -1360 840 -1360 {
 lab=VPWR}
-N 720 -970 720 -650 {
+N 840 -970 840 -650 {
 lab=VPWR}
-N 720 -650 860 -650 {
+N 840 -650 860 -650 {
 lab=VPWR}
-N 720 -970 860 -970 {
+N 840 -970 860 -970 {
 lab=VPWR}
-N 280 -160 760 -160 {
+N 280 -160 820 -160 {
 lab=VGND}
-N 760 -570 760 -160 {
+N 820 -570 820 -160 {
 lab=VGND}
-N 760 -930 860 -930 {
+N 820 -930 860 -930 {
 lab=VGND}
-N 760 -570 860 -570 {
+N 820 -570 860 -570 {
 lab=VGND}
 N 280 -1060 540 -1060 {
 lab=ui_in[0]}
@@ -47,7 +55,7 @@ N 500 -980 500 -630 {
 lab=ui_in[2]}
 N 500 -630 860 -630 {
 lab=ui_in[2]}
-N 760 -930 760 -570 {
+N 820 -930 820 -570 {
 lab=VGND}
 N 540 -1060 540 -590 {
 lab=ui_in[0]}
@@ -287,21 +295,17 @@ N 1780 -680 1780 -660 {
 lab=VGND}
 N 1780 -660 1780 -640 {
 lab=VGND}
-N 720 -1360 720 -970 {
+N 840 -1360 840 -970 {
 lab=VPWR}
-N 280 -780 620 -780 {
-lab=ui_in[7]}
 N 1780 -940 1820 -940 {
 lab=VGND}
 N 1880 -940 1980 -940 {
 lab=uo_out[0]}
-N 620 -950 860 -950 {
-lab=ui_in[7]}
-N 620 -950 620 -780 {
-lab=ui_in[7]}
+N 660 -950 860 -950 {
+lab=ui_in[6]}
 N 1780 -1000 1780 -940 {
 lab=VGND}
-N 720 -1360 1240 -1360 {
+N 840 -1360 1240 -1360 {
 lab=VPWR}
 N 1240 -1360 1240 -1280 {
 lab=VPWR}
@@ -328,10 +332,10 @@ lab=ua[1]}
 N 1600 -780 1600 -520 {
 lab=ua[1]}
 N 1560 -760 1580 -760 {
-lab=ro_int}
+lab=dac_int}
 N 1580 -760 1580 -650 {
-lab=ro_int}
-N 760 -160 1220 -160 {
+lab=dac_int}
+N 820 -160 1220 -160 {
 lab=VGND}
 N 1220 -1240 1220 -1070 {
 lab=VGND}
@@ -355,28 +359,32 @@ N 1560 -1260 1700 -1260 {
 lab=ua[1]}
 N 1700 -1260 1700 -520 {
 lab=ua[1]}
-N 280 -820 1160 -820 {
-lab=ui_in[6]}
-N 1160 -820 1160 -760 {
-lab=ui_in[6]}
-N 1160 -760 1260 -760 {
-lab=ui_in[6]}
-N 280 -860 580 -860 {
+N 280 -860 600 -860 {
 lab=ui_in[5]}
-N 580 -1090 580 -860 {
+N 600 -1090 600 -860 {
 lab=ui_in[5]}
-N 580 -1090 1260 -1090 {
+N 600 -1090 1260 -1090 {
 lab=ui_in[5]}
-N 280 -900 400 -900 {
-lab=ui_in[4]}
-N 400 -1260 400 -900 {
-lab=ui_in[4]}
-N 400 -1260 1260 -1260 {
-lab=ui_in[4]}
+N 360 -1260 360 -780 {
+lab=ui_in[7]}
 N 1620 -560 1720 -560 {
 lab=ua[0]}
 N 1600 -520 1700 -520 {
 lab=ua[1]}
+N 440 -940 440 -760 {
+lab=ui_in[3]}
+N 280 -820 660 -820 {
+lab=ui_in[6]}
+N 660 -950 660 -820 {
+lab=ui_in[6]}
+N 360 -1260 1260 -1260 {
+lab=ui_in[7]}
+N 280 -780 360 -780 {
+lab=ui_in[7]}
+N 280 -940 440 -940 {
+lab=ui_in[3]}
+N 440 -760 1260 -760 {
+lab=ui_in[3]}
 C {devices/title.sym} 160 -30 0 0 {name=l1 author="Harald Pretl"}
 C {devices/ipin.sym} 280 -1360 0 0 {name=p1 lab=VPWR}
 C {devices/ipin.sym} 280 -160 0 0 {name=p2 lab=VGND}
@@ -449,7 +457,6 @@ C {devices/noconn.sym} 280 -460 0 1 {name=l17}
 C {devices/noconn.sym} 280 -420 0 1 {name=l18}
 C {dac.sym} 1010 -610 0 0 {name=xdac}
 C {ringosc.sym} 1010 -950 0 0 {name=xringosc}
-C {devices/noconn.sym} 280 -940 0 1 {name=l9}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1680 3 0 {name=R1
 L=0.35
 model=res_xhigh_po_0p35
@@ -600,3 +607,4 @@ C {tg.sym} 1410 -760 0 0 {name=xtgdac}
 C {tg.sym} 1410 -1260 0 0 {name=xtgbyp}
 C {devices/lab_wire.sym} 1380 -970 0 0 {name=p7 sig_type=std_logic lab=ro_int}
 C {devices/lab_wire.sym} 1380 -650 0 0 {name=p55 sig_type=std_logic lab=dac_int}
+C {devices/noconn.sym} 280 -900 0 1 {name=l19}
