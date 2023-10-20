@@ -63,9 +63,9 @@ lab=GND}
 N 1430 -980 1490 -980 {
 lab=GND}
 N 1790 -560 1950 -560 {
-lab=#net1}
+lab=clk_int}
 N 1790 -540 2060 -540 {
-lab=#net2}
+lab=dac}
 N 1430 -1000 1430 -980 {
 lab=GND}
 N 380 -1040 1490 -1040 {
@@ -87,17 +87,17 @@ lab=GND}
 N 800 -320 800 -140 {
 lab=GND}
 N 800 -960 1490 -960 {
-lab=#net3}
+lab=dac0}
 N 800 -960 800 -380 {
-lab=#net3}
+lab=dac0}
 N 720 -940 720 -380 {
-lab=#net4}
+lab=dac1}
 N 640 -920 640 -380 {
-lab=#net5}
+lab=dac2}
 N 640 -920 1490 -920 {
-lab=#net5}
+lab=dac2}
 N 720 -940 1490 -940 {
-lab=#net4}
+lab=dac1}
 N 640 -320 640 -140 {
 lab=GND}
 N 460 -140 640 -140 { lab=GND}
@@ -219,11 +219,11 @@ C {devices/noconn.sym} 1790 -620 2 0 {name=l27}
 C {devices/noconn.sym} 1790 -600 2 0 {name=l28}
 C {devices/noconn.sym} 1790 -580 2 0 {name=l29}
 C {devices/noconn.sym} 1790 -720 2 0 {name=l6}
-C {devices/vsource.sym} 800 -350 0 0 {name=Vdd3 value="1.8 pwl(0 0 1u 0 1.01u 1.8 2u 1.8 2.01u 0 3u 0 3.01u 1.8 4u 1.8 4.01u 0 5u 0 5.01u 1.8 6u 1.8 6.01u 0 7u 0 7.01u 1.8)"
+C {devices/vsource.sym} 800 -350 0 0 {name=Vdac0 value="1.8 pwl(0 0 1u 0 1.01u 1.8 2u 1.8 2.01u 0 3u 0 3.01u 1.8 4u 1.8 4.01u 0 5u 0 5.01u 1.8 6u 1.8 6.01u 0 7u 0 7.01u 1.8)"
 }
-C {devices/vsource.sym} 720 -350 0 0 {name=Vdd2 value="1.8 pwl(0 0 2u 0 2.01u 1.8 4u 1.8 4.01u 06u 0 6.01u 1.8)"
+C {devices/vsource.sym} 720 -350 0 0 {name=Vdac1 value="1.8 pwl(0 0 2u 0 2.01u 1.8 4u 1.8 4.01u 06u 0 6.01u 1.8)"
 }
-C {devices/vsource.sym} 640 -350 0 0 {name=Vdd4 value="1.8 pwl(0 0 4u 0 4.01u 1.8)"
+C {devices/vsource.sym} 640 -350 0 0 {name=Vdac2 value="1.8 pwl(0 0 4u 0 4.01u 1.8)"
 }
 C {devices/lab_wire.sym} 520 -840 0 0 {name=l30 lab=enable}
 C {devices/spice_probe.sym} 550 -840 0 0 {name=p3 attrs=""}
@@ -236,3 +236,8 @@ C {devices/vsource.sym} 1160 -230 0 0 {name=Vdac_out value=1.8
 C {devices/lab_wire.sym} 1030 -820 0 0 {name=l31 lab=out_short}
 C {devices/lab_wire.sym} 1110 -860 0 0 {name=l32 lab=out_ro}
 C {devices/lab_wire.sym} 1220 -900 0 0 {name=l33 lab=out_dac}
+C {devices/lab_wire.sym} 900 -960 0 0 {name=l34 lab=dac0}
+C {devices/lab_wire.sym} 900 -940 0 0 {name=l35 lab=dac1}
+C {devices/lab_wire.sym} 900 -920 0 0 {name=l36 lab=dac2}
+C {devices/lab_wire.sym} 1900 -560 0 0 {name=l37 lab=clk_int}
+C {devices/lab_wire.sym} 1900 -540 0 0 {name=l38 lab=dac_int}
