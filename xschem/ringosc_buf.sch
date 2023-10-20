@@ -5,7 +5,7 @@ K {}
 V {}
 S {}
 E {}
-T {Buffer for ring oscillator.} 380 -190 0 0 0.4 0.4 {}
+T {Inverter-buffer for ring oscillator.} 380 -190 0 0 0.4 0.4 {}
 N 460 -350 530 -350 { lab=vss}
 N 460 -410 460 -380 { lab=out}
 N 400 -410 400 -350 { lab=in}
@@ -55,7 +55,7 @@ C {devices/ipin.sym} 310 -280 0 0 {name=p2 lab=vss}
 C {devices/ipin.sym} 300 -410 0 0 {name=p3 lab=in}
 C {devices/opin.sym} 940 -410 0 0 {name=p4 lab=out}
 C {devices/title.sym} 160 -30 0 0 {name=l1 author="Harald Pretl"}
-C {sky130_fd_pr/nfet_01v8.sym} 440 -350 0 0 {name=M2
+C {sky130_fd_pr/nfet_01v8.sym} 440 -350 0 0 {name=M1
 L=0.5
 W=10
 nf=1 
@@ -69,7 +69,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 440 -550 0 0 {name=M8
+C {sky130_fd_pr/pfet_01v8.sym} 440 -550 0 0 {name=M2A
 L=0.5
 W=10
 nf=1
@@ -83,7 +83,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 600 -500 0 0 {name=M1
+C {sky130_fd_pr/pfet_01v8.sym} 600 -500 0 0 {name=M2B
 L=0.5
 W=10
 nf=1

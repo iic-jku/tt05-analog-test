@@ -130,6 +130,14 @@ N 1160 -840 1490 -840 {
 lab=out_dac}
 N 1160 -840 1160 -260 {
 lab=out_dac}
+N 2500 -340 2500 -140 {
+lab=GND}
+N 2360 -140 2500 -140 {
+lab=GND}
+N 2360 -560 2500 -560 {
+lab=clk}
+N 2500 -560 2500 -400 {
+lab=clk}
 C {devices/code.sym} 30 -290 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval( @value )"
@@ -227,12 +235,14 @@ C {devices/vsource.sym} 640 -350 0 0 {name=Vdd4 value="1.8 pwl(0 0 4u 0 4.01u 1.
 }
 C {devices/lab_wire.sym} 530 -820 0 0 {name=l30 lab=enable}
 C {devices/spice_probe.sym} 560 -820 0 0 {name=p3 attrs=""}
-C {devices/vsource.sym} 960 -230 0 0 {name=Vshort value=0
+C {devices/vsource.sym} 960 -230 0 0 {name=Vshort value=1.8
 }
-C {devices/vsource.sym} 1060 -230 0 0 {name=Vro_out value=1.8
+C {devices/vsource.sym} 1060 -230 0 0 {name=Vro_out value=0
 }
-C {devices/vsource.sym} 1160 -230 0 0 {name=Vdac_out value=1.8
+C {devices/vsource.sym} 1160 -230 0 0 {name=Vdac_out value=0
 }
 C {devices/lab_wire.sym} 1090 -880 0 0 {name=l31 lab=out_short}
 C {devices/lab_wire.sym} 1180 -860 0 0 {name=l32 lab=out_ro}
 C {devices/lab_wire.sym} 1270 -840 0 0 {name=l33 lab=out_dac}
+C {devices/vsource.sym} 2500 -370 0 0 {name=Vramp value="1.8 pwl(0 0 20u 1.8)"
+}

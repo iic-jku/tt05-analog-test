@@ -144,9 +144,9 @@ C {devices/ipin.sym} 380 -800 0 0 {name=p1 lab=vdd}
 C {devices/ipin.sym} 380 -80 0 0 {name=p2 lab=vss}
 C {devices/opin.sym} 1560 -700 0 0 {name=p3 lab=vout}
 C {devices/ipin.sym} 380 -320 0 0 {name=p4 lab=in0}
-C {/foss/designs/xschem/adc_drv.sym} 790 -680 0 0 {name=x1}
-C {/foss/designs/xschem/adc_drv.sym} 790 -500 0 0 {name=x2}
-C {/foss/designs/xschem/adc_drv.sym} 790 -320 0 0 {name=x3}
+C {dac_drv.sym} 790 -680 0 0 {name=xdrv_b2}
+C {dac_drv.sym} 790 -500 0 0 {name=xdrv_b1}
+C {dac_drv.sym} 790 -320 0 0 {name=xdrv_b0}
 C {devices/ipin.sym} 380 -500 0 0 {name=p6 lab=in1}
 C {devices/ipin.sym} 380 -680 0 0 {name=p8 lab=in2}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1300 -610 0 0 {name=R1
@@ -155,7 +155,7 @@ L=1.4
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1}
-C {/foss/designs/xschem/adc_drv.sym} 790 -140 0 0 {name=x4}
+C {dac_drv.sym} 790 -140 0 0 {name=xdrv_dummy}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1050 -700 3 0 {name=R2
 W=0.35
 L=1.4

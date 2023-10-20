@@ -5,7 +5,7 @@ K {}
 V {}
 S {}
 E {}
-T {Buffer for ADC.} 470 -200 0 0 0.4 0.4 {}
+T {Buffer for DAC.} 470 -200 0 0 0.4 0.4 {}
 N 460 -350 530 -350 { lab=vss}
 N 400 -350 420 -350 { lab=in}
 N 460 -620 530 -620 { lab=vdd}
@@ -106,7 +106,7 @@ C {devices/ipin.sym} 310 -280 0 0 {name=p2 lab=vss}
 C {devices/ipin.sym} 300 -440 0 0 {name=p3 lab=in}
 C {devices/opin.sym} 1020 -440 0 0 {name=p4 lab=out}
 C {devices/title.sym} 160 -30 0 0 {name=l1 author="Harald Pretl"}
-C {sky130_fd_pr/nfet_01v8.sym} 440 -350 0 0 {name=M2
+C {sky130_fd_pr/nfet_01v8.sym} 440 -350 0 0 {name=M1
 L=0.5
 W=5
 nf=1 
@@ -120,7 +120,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 440 -550 0 0 {name=M8
+C {sky130_fd_pr/pfet_01v8.sym} 440 -550 0 0 {name=M2A
 L=0.5
 W=5
 nf=1
@@ -134,7 +134,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 840 -550 0 0 {name=M1
+C {sky130_fd_pr/pfet_01v8.sym} 840 -550 0 0 {name=M4A
 L=0.5
 W=5
 nf=1
@@ -162,7 +162,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 580 -500 0 0 {name=M4
+C {sky130_fd_pr/pfet_01v8.sym} 580 -500 0 0 {name=M2B
 L=0.5
 W=5
 nf=1
@@ -176,7 +176,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 970 -500 0 0 {name=M5
+C {sky130_fd_pr/pfet_01v8.sym} 970 -500 0 0 {name=M4B
 L=0.5
 W=5
 nf=1

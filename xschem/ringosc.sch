@@ -121,15 +121,15 @@ C {devices/lab_wire.sym} 1260 -420 0 0 {name=l6 lab=ph3}
 C {devices/spice_probe.sym} 480 -420 0 0 {name=p1 attrs=""}
 C {devices/spice_probe.sym} 880 -420 0 0 {name=p2 attrs=""}
 C {devices/spice_probe.sym} 1260 -420 0 0 {name=p3 attrs=""}
-C {ringosc_delay.sym} 710 -310 0 0 {name=x1}
-C {ringosc_delay.sym} 1090 -310 0 0 {name=x2}
-C {ringosc_delay.sym} 1470 -310 0 0 {name=x3}
+C {ringosc_delay.sym} 710 -310 0 0 {name=xro1}
+C {ringosc_delay.sym} 1090 -310 0 0 {name=xro2}
+C {ringosc_delay.sym} 1470 -310 0 0 {name=xro3}
 C {devices/ipin.sym} 380 -680 0 0 {name=p1 lab=vdd}
 C {devices/ipin.sym} 380 -140 0 0 {name=p2 lab=vss}
 C {devices/opin.sym} 1980 -550 0 0 {name=p3 lab=clk_out}
-C {ringosc_buf.sym} 710 -530 0 0 {name=x4}
-C {ringosc_buf.sym} 1090 -530 0 0 {name=x5}
-C {ringosc_buf.sym} 1470 -530 0 0 {name=x6}
+C {ringosc_buf.sym} 710 -530 0 0 {name=xbuf1}
+C {ringosc_buf.sym} 1090 -530 0 0 {name=xbuf2}
+C {ringosc_buf.sym} 1470 -530 0 0 {name=xbuf3}
 C {devices/noconn.sym} 860 -550 0 1 {name=l3}
 C {devices/noconn.sym} 1240 -550 0 1 {name=l4}
 C {devices/ipin.sym} 380 -320 0 0 {name=p4 lab=ena}

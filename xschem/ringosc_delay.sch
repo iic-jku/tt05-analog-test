@@ -118,7 +118,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/nfet_01v8.sym} 440 -350 0 0 {name=M2
+C {sky130_fd_pr/nfet_01v8.sym} 440 -350 0 0 {name=M2A
 L=10
 W=0.5
 nf=1 
@@ -132,7 +132,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/nfet_01v8.sym} 710 -360 1 0 {name=M4
+C {sky130_fd_pr/nfet_01v8.sym} 710 -360 1 0 {name=Mcap1
 L=2
 W=10
 nf=1 
@@ -146,7 +146,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 710 -460 3 0 {name=M5
+C {sky130_fd_pr/pfet_01v8.sym} 710 -460 3 0 {name=Mcap2
 L=2
 W=10
 nf=1
@@ -160,7 +160,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/nfet_01v8.sym} 440 -270 0 0 {name=M3
+C {sky130_fd_pr/nfet_01v8.sym} 440 -270 0 0 {name=M2B
 L=10
 W=0.5
 nf=1 
@@ -174,7 +174,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 340 -530 0 0 {name=M6
+C {sky130_fd_pr/pfet_01v8.sym} 340 -530 0 0 {name=Mpowerdn
 L=1
 W=10
 nf=1

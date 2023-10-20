@@ -7,18 +7,13 @@ S {}
 E {}
 T {Analog test macro for TinyTapeout05.
 
-Contains an 500kHz ring oscillator plus a 3-bit R-2R DAC.} 780 -1600 0 0 0.4 0.4 {}
-N 1160 -650 1520 -650 {
+Contains an 500kHz ring oscillator plus a 3-bit R-2R DAC.
+Transmission gates allow to isolate the analog outputs, or short them.} 780 -1600 0 0 0.4 0.4 {}
+N 1160 -650 1580 -650 {
+lab=ro_int}
+N 1700 -520 1980 -520 {
 lab=ua[1]}
-N 1520 -650 1520 -520 {
-lab=ua[1]}
-N 1520 -520 1980 -520 {
-lab=ua[1]}
-N 1160 -970 1620 -970 {
-lab=ua[0]}
-N 1620 -970 1620 -560 {
-lab=ua[0]}
-N 1620 -560 1980 -560 {
+N 1720 -560 1980 -560 {
 lab=ua[0]}
 N 280 -1360 720 -1360 {
 lab=VPWR}
@@ -60,7 +55,7 @@ N 1880 -1680 1980 -1680 {
 lab=uio_oe[0]}
 N 1780 -640 1780 -160 {
 lab=VGND}
-N 760 -160 1780 -160 {
+N 1220 -160 1780 -160 {
 lab=VGND}
 N 1780 -1680 1820 -1680 {
 lab=VGND}
@@ -306,6 +301,82 @@ N 620 -950 620 -780 {
 lab=ui_in[7]}
 N 1780 -1000 1780 -940 {
 lab=VGND}
+N 720 -1360 1240 -1360 {
+lab=VPWR}
+N 1240 -1360 1240 -1280 {
+lab=VPWR}
+N 1240 -1280 1260 -1280 {
+lab=VPWR}
+N 1240 -1280 1240 -1110 {
+lab=VPWR}
+N 1240 -1110 1260 -1110 {
+lab=VPWR}
+N 1240 -1110 1240 -780 {
+lab=VPWR}
+N 1240 -780 1260 -780 {
+lab=VPWR}
+N 1220 -1240 1260 -1240 {
+lab=VGND}
+N 1220 -740 1220 -160 {
+lab=VGND}
+N 1220 -1070 1260 -1070 {
+lab=VGND}
+N 1220 -740 1260 -740 {
+lab=VGND}
+N 1560 -780 1600 -780 {
+lab=ua[1]}
+N 1600 -780 1600 -520 {
+lab=ua[1]}
+N 1560 -760 1580 -760 {
+lab=ro_int}
+N 1580 -760 1580 -650 {
+lab=ro_int}
+N 760 -160 1220 -160 {
+lab=VGND}
+N 1220 -1240 1220 -1070 {
+lab=VGND}
+N 1220 -1070 1220 -740 {
+lab=VGND}
+N 1560 -1110 1620 -1110 {
+lab=ua[0]}
+N 1620 -1110 1620 -560 {
+lab=ua[0]}
+N 1560 -1090 1600 -1090 {
+lab=ro_int}
+N 1600 -1090 1600 -970 {
+lab=ro_int}
+N 1160 -970 1600 -970 {
+lab=ro_int}
+N 1560 -1280 1720 -1280 {
+lab=ua[0]}
+N 1720 -1280 1720 -560 {
+lab=ua[0]}
+N 1560 -1260 1700 -1260 {
+lab=ua[1]}
+N 1700 -1260 1700 -520 {
+lab=ua[1]}
+N 280 -820 1160 -820 {
+lab=ui_in[6]}
+N 1160 -820 1160 -760 {
+lab=ui_in[6]}
+N 1160 -760 1260 -760 {
+lab=ui_in[6]}
+N 280 -860 580 -860 {
+lab=ui_in[5]}
+N 580 -1090 580 -860 {
+lab=ui_in[5]}
+N 580 -1090 1260 -1090 {
+lab=ui_in[5]}
+N 280 -900 400 -900 {
+lab=ui_in[4]}
+N 400 -1260 400 -900 {
+lab=ui_in[4]}
+N 400 -1260 1260 -1260 {
+lab=ui_in[4]}
+N 1620 -560 1720 -560 {
+lab=ua[0]}
+N 1600 -520 1700 -520 {
+lab=ua[1]}
 C {devices/title.sym} 160 -30 0 0 {name=l1 author="Harald Pretl"}
 C {devices/ipin.sym} 280 -1360 0 0 {name=p1 lab=VPWR}
 C {devices/ipin.sym} 280 -160 0 0 {name=p2 lab=VGND}
@@ -376,12 +447,9 @@ C {devices/noconn.sym} 280 -540 0 1 {name=l15}
 C {devices/noconn.sym} 280 -500 0 1 {name=l16}
 C {devices/noconn.sym} 280 -460 0 1 {name=l17}
 C {devices/noconn.sym} 280 -420 0 1 {name=l18}
-C {/foss/designs/xschem/adc.sym} 1010 -610 0 0 {name=x1}
-C {/foss/designs/xschem/ringosc.sym} 1010 -950 0 0 {name=x2}
+C {dac.sym} 1010 -610 0 0 {name=xdac}
+C {ringosc.sym} 1010 -950 0 0 {name=xringosc}
 C {devices/noconn.sym} 280 -940 0 1 {name=l9}
-C {devices/noconn.sym} 280 -900 0 1 {name=l19}
-C {devices/noconn.sym} 280 -860 0 1 {name=l20}
-C {devices/noconn.sym} 280 -820 0 1 {name=l21}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1850 -1680 3 0 {name=R1
 L=0.35
 model=res_xhigh_po_0p35
@@ -527,3 +595,8 @@ spiceprefix=X
 mult=1
 W=0.35}
 C {devices/noconn.sym} 280 -1220 0 1 {name=l22}
+C {tg.sym} 1410 -1090 0 0 {name=xtgro}
+C {tg.sym} 1410 -760 0 0 {name=xtgdac}
+C {tg.sym} 1410 -1260 0 0 {name=xtgbyp}
+C {devices/lab_wire.sym} 1380 -970 0 0 {name=p7 sig_type=std_logic lab=ro_int}
+C {devices/lab_wire.sym} 1380 -650 0 0 {name=p55 sig_type=std_logic lab=dac_int}
