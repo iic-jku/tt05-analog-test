@@ -1,0 +1,51 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1698067942
+<< nwell >>
+rect -246 -684 246 684
+<< pmos >>
+rect -50 -536 50 464
+<< pdiff >>
+rect -108 452 -50 464
+rect -108 -524 -96 452
+rect -62 -524 -50 452
+rect -108 -536 -50 -524
+rect 50 452 108 464
+rect 50 -524 62 452
+rect 96 -524 108 452
+rect 50 -536 108 -524
+<< pdiffc >>
+rect -96 -524 -62 452
+rect 62 -524 96 452
+<< nsubdiff >>
+rect -210 614 210 648
+rect -210 -614 -176 614
+rect 176 -614 210 614
+rect -210 -648 -114 -614
+rect 114 -648 210 -614
+<< nsubdiffcont >>
+rect -114 -648 114 -614
+<< poly >>
+rect -50 545 50 561
+rect -50 511 -34 545
+rect 34 511 50 545
+rect -50 464 50 511
+rect -50 -562 50 -536
+<< polycont >>
+rect -34 511 34 545
+<< locali >>
+rect -210 614 210 648
+rect -210 -614 -176 614
+rect -50 511 -34 545
+rect 34 511 50 545
+rect -96 452 -62 468
+rect -96 -540 -62 -524
+rect 62 452 96 468
+rect 62 -540 96 -524
+rect 176 -614 210 614
+rect -210 -648 -114 -614
+rect 114 -648 210 -614
+<< properties >>
+string FIXED_BBOX -193 -631 193 631
+<< end >>
