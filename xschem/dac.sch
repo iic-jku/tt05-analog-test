@@ -1,4 +1,4 @@
-v {xschem version=3.4.4 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -139,6 +139,28 @@ N 1050 -80 1150 -80 {
 lab=vss}
 N 1080 -520 1120 -520 {
 lab=#net7}
+N 1240 -80 1720 -80 {
+lab=vss}
+N 1720 -100 1720 -80 {
+lab=vss}
+N 1720 -180 1720 -160 {
+lab=vss}
+N 1680 -180 1720 -180 {
+lab=vss}
+N 1680 -180 1680 -80 {
+lab=vss}
+N 1680 -130 1700 -130 {
+lab=vss}
+N 1560 -100 1560 -80 {
+lab=vss}
+N 1560 -180 1560 -160 {
+lab=vss}
+N 1520 -180 1560 -180 {
+lab=vss}
+N 1520 -180 1520 -80 {
+lab=vss}
+N 1520 -130 1540 -130 {
+lab=vss}
 C {devices/title.sym} 160 -30 0 0 {name=l1 author="Harald Pretl"}
 C {devices/ipin.sym} 380 -800 0 0 {name=p1 lab=vdd}
 C {devices/ipin.sym} 380 -80 0 0 {name=p2 lab=vss}
@@ -212,6 +234,18 @@ model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1}
 C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1150 -160 3 0 {name=R11
+W=0.35
+L=1.4
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1560 -130 0 0 {name=Rdummy1
+W=0.35
+L=1.4
+model=res_xhigh_po_0p35
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_xhigh_po_0p35.sym} 1720 -130 0 0 {name=Rdummy2
 W=0.35
 L=1.4
 model=res_xhigh_po_0p35

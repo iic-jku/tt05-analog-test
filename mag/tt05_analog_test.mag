@@ -4497,367 +4497,367 @@ rect 30391 79 30513 80
 rect 26159 69 26281 70
 rect 26160 0 26280 69
 rect 30392 0 30512 79
-use XM1_xbuf1_xringosc  XM1_xbuf1_xringosc_0 ../Devices
+use XM1_xbuf1_xringosc  XM1_xbuf1_xringosc_0 devices
 timestamp 1698067942
 transform 0 1 14768 -1 0 2323
 box -246 -1179 246 1179
-use XM1_xbuf2_xringosc  XM1_xbuf2_xringosc_0 ../Devices
+use XM1_xbuf2_xringosc  XM1_xbuf2_xringosc_0 devices
 timestamp 1698067942
 transform 0 1 18207 -1 0 8729
 box -246 -1179 246 1179
-use XM1_xbuf3_xringosc  XM1_xbuf3_xringosc_0 ../Devices
+use XM1_xbuf3_xringosc  XM1_xbuf3_xringosc_0 devices
 timestamp 1698067942
 transform 0 1 15022 -1 0 7237
 box -246 -1179 246 1179
-use XM1_xdrv_b0_xdac  XM1_xdrv_b0_xdac_0 ../Devices
+use XM1_xdrv_b0_xdac  XM1_xdrv_b0_xdac_0 devices
 timestamp 1698067942
 transform 0 -1 13446 1 0 10987
 box -246 -679 246 679
-use XM1_xdrv_b1_xdac  XM1_xdrv_b1_xdac_0 ../Devices
+use XM1_xdrv_b1_xdac  XM1_xdrv_b1_xdac_0 devices
 timestamp 1698067942
 transform 0 1 17735 -1 0 13702
 box -246 -679 246 679
-use XM1_xdrv_b2_xdac  XM1_xdrv_b2_xdac_0 ../Devices
+use XM1_xdrv_b2_xdac  XM1_xdrv_b2_xdac_0 devices
 timestamp 1698067942
 transform -1 0 13976 0 -1 13171
 box -246 -679 246 679
-use XM1_xdrv_dummy_xdac  XM1_xdrv_dummy_xdac_0 ../Devices
+use XM1_xdrv_dummy_xdac  XM1_xdrv_dummy_xdac_0 devices
 timestamp 1698067942
 transform 0 1 17773 -1 0 11972
 box -246 -679 246 679
-use XM1_xro1_xringosc  XM1_xro1_xringosc_0 ../Devices
+use XM1_xro1_xringosc  XM1_xro1_xringosc_0 devices
 timestamp 1698067942
 transform -1 0 17397 0 -1 2173
 box -1196 -234 1196 234
-use XM1_xro2_xringosc  XM1_xro2_xringosc_0 ../Devices
+use XM1_xro2_xringosc  XM1_xro2_xringosc_0 devices
 timestamp 1698067942
 transform 1 0 18189 0 1 6419
 box -1196 -234 1196 234
-use XM1_xro3_xringosc  XM1_xro3_xringosc_0 ../Devices
+use XM1_xro3_xringosc  XM1_xro3_xringosc_0 devices
 timestamp 1698067942
 transform 0 -1 13824 1 0 4557
 box -1196 -234 1196 234
-use XM1_xtgbyp  XM1_xtgbyp_0 ../Devices
+use XM1_xtgbyp  XM1_xtgbyp_0 devices
 timestamp 1698067942
 transform 0 -1 19006 1 0 13357
 box -246 -279 246 279
-use XM1_xtgdac  XM1_xtgdac_0 ../Devices
+use XM1_xtgdac  XM1_xtgdac_0 devices
 timestamp 1698067942
 transform 0 1 19925 -1 0 14102
 box -246 -279 246 279
-use XM1_xtgro  XM1_xtgro_0 ../Devices
+use XM1_xtgro  XM1_xtgro_0 devices
 timestamp 1698067942
 transform 0 1 14198 -1 0 7872
 box -246 -279 246 279
-use XM2_xtgbyp  XM2_xtgbyp_0 ../Devices
+use XM2_xtgbyp  XM2_xtgbyp_0 devices
 timestamp 1698067942
 transform 0 -1 19670 1 0 13356
 box -246 -384 246 384
-use XM2_xtgdac  XM2_xtgdac_0 ../Devices
+use XM2_xtgdac  XM2_xtgdac_0 devices
 timestamp 1698067942
 transform 0 1 19261 -1 0 14103
 box -246 -384 246 384
-use XM2_xtgro  XM2_xtgro_0 ../Devices
+use XM2_xtgro  XM2_xtgro_0 devices
 timestamp 1698067942
 transform 0 1 13534 -1 0 7873
 box -246 -384 246 384
-use XM2A_xbuf1_xringosc  XM2A_xbuf1_xringosc_0 ../Devices
+use XM2A_xbuf1_xringosc  XM2A_xbuf1_xringosc_0 devices
 timestamp 1698067942
 transform 0 1 14762 -1 0 1831
 box -246 -1184 246 1184
-use XM2A_xbuf2_xringosc  XM2A_xbuf2_xringosc_0 ../Devices
+use XM2A_xbuf2_xringosc  XM2A_xbuf2_xringosc_0 devices
 timestamp 1698067942
 transform 0 1 18201 -1 0 8237
 box -246 -1184 246 1184
-use XM2A_xbuf3_xringosc  XM2A_xbuf3_xringosc_0 ../Devices
+use XM2A_xbuf3_xringosc  XM2A_xbuf3_xringosc_0 devices
 timestamp 1698067942
 transform 0 1 15016 -1 0 6745
 box -246 -1184 246 1184
-use XM2A_xdrv_b0_xdac  XM2A_xdrv_b0_xdac_0 ../Devices
+use XM2A_xdrv_b0_xdac  XM2A_xdrv_b0_xdac_0 devices
 timestamp 1698067942
 transform 0 -1 13430 1 0 11971
 box -246 -684 246 684
-use XM2A_xdrv_b1_xdac  XM2A_xdrv_b1_xdac_0 ../Devices
+use XM2A_xdrv_b1_xdac  XM2A_xdrv_b1_xdac_0 devices
 timestamp 1698067942
 transform 0 1 17751 -1 0 12718
 box -246 -684 246 684
-use XM2A_xdrv_b2_xdac  XM2A_xdrv_b2_xdac_0 ../Devices
+use XM2A_xdrv_b2_xdac  XM2A_xdrv_b2_xdac_0 devices
 timestamp 1698067942
 transform -1 0 12992 0 -1 13155
 box -246 -684 246 684
-use XM2A_xdrv_dummy_xdac  XM2A_xdrv_dummy_xdac_0 ../Devices
+use XM2A_xdrv_dummy_xdac  XM2A_xdrv_dummy_xdac_0 devices
 timestamp 1698067942
 transform 0 1 17789 -1 0 10988
 box -246 -684 246 684
-use XM2A_xro1_xringosc  XM2A_xro1_xringosc_0 ../Devices
+use XM2A_xro1_xringosc  XM2A_xro1_xringosc_0 devices
 timestamp 1698067942
 transform -1 0 17397 0 -1 3428
 box -1196 -229 1196 229
-use XM2A_xro2_xringosc  XM2A_xro2_xringosc_0 ../Devices
+use XM2A_xro2_xringosc  XM2A_xro2_xringosc_0 devices
 timestamp 1698067942
 transform 1 0 18189 0 1 5164
 box -1196 -229 1196 229
-use XM2A_xro3_xringosc  XM2A_xro3_xringosc_0 ../Devices
+use XM2A_xro3_xringosc  XM2A_xro3_xringosc_0 devices
 timestamp 1698067942
 transform 0 -1 15079 1 0 4557
 box -1196 -229 1196 229
-use XM2B_xbuf1_xringosc  XM2B_xbuf1_xringosc_0 ../Devices
+use XM2B_xbuf1_xringosc  XM2B_xbuf1_xringosc_0 devices
 timestamp 1698067942
 transform 0 1 14762 -1 0 1339
 box -246 -1184 246 1184
-use XM2B_xbuf2_xringosc  XM2B_xbuf2_xringosc_0 ../Devices
+use XM2B_xbuf2_xringosc  XM2B_xbuf2_xringosc_0 devices
 timestamp 1698067942
 transform 0 1 18201 -1 0 7745
 box -246 -1184 246 1184
-use XM2B_xbuf3_xringosc  XM2B_xbuf3_xringosc_0 ../Devices
+use XM2B_xbuf3_xringosc  XM2B_xbuf3_xringosc_0 devices
 timestamp 1698067942
 transform 0 1 15016 -1 0 6253
 box -246 -1184 246 1184
-use XM2B_xdrv_b0_xdac  XM2B_xdrv_b0_xdac_0 ../Devices
+use XM2B_xdrv_b0_xdac  XM2B_xdrv_b0_xdac_0 devices
 timestamp 1698067942
 transform 0 -1 13430 1 0 11479
 box -246 -684 246 684
-use XM2B_xdrv_b1_xdac  XM2B_xdrv_b1_xdac_0 ../Devices
+use XM2B_xdrv_b1_xdac  XM2B_xdrv_b1_xdac_0 devices
 timestamp 1698067942
 transform 0 1 17751 -1 0 13210
 box -246 -684 246 684
-use XM2B_xdrv_b2_xdac  XM2B_xdrv_b2_xdac_0 ../Devices
+use XM2B_xdrv_b2_xdac  XM2B_xdrv_b2_xdac_0 devices
 timestamp 1698067942
 transform -1 0 13484 0 -1 13155
 box -246 -684 246 684
-use XM2B_xdrv_dummy_xdac  XM2B_xdrv_dummy_xdac_0 ../Devices
+use XM2B_xdrv_dummy_xdac  XM2B_xdrv_dummy_xdac_0 devices
 timestamp 1698067942
 transform 0 1 17789 -1 0 11480
 box -246 -684 246 684
-use XM2B_xro1_xringosc  XM2B_xro1_xringosc_0 ../Devices
+use XM2B_xro1_xringosc  XM2B_xro1_xringosc_0 devices
 timestamp 1698067942
 transform 1 0 17397 0 1 3886
 box -1196 -229 1196 229
-use XM2B_xro2_xringosc  XM2B_xro2_xringosc_0 ../Devices
+use XM2B_xro2_xringosc  XM2B_xro2_xringosc_0 devices
 timestamp 1698067942
 transform -1 0 18189 0 -1 4706
 box -1196 -229 1196 229
-use XM2B_xro3_xringosc  XM2B_xro3_xringosc_0 ../Devices
+use XM2B_xro3_xringosc  XM2B_xro3_xringosc_0 devices
 timestamp 1698067942
 transform 0 1 15537 -1 0 4557
 box -1196 -229 1196 229
-use XM3_xdrv_b0_xdac  XM3_xdrv_b0_xdac_0 ../Devices
+use XM3_xdrv_b0_xdac  XM3_xdrv_b0_xdac_0 devices
 timestamp 1698067942
 transform 0 1 14804 -1 0 10987
 box -246 -679 246 679
-use XM3_xdrv_b1_xdac  XM3_xdrv_b1_xdac_0 ../Devices
+use XM3_xdrv_b1_xdac  XM3_xdrv_b1_xdac_0 devices
 timestamp 1698067942
 transform 0 -1 16377 1 0 13702
 box -246 -679 246 679
-use XM3_xdrv_b2_xdac  XM3_xdrv_b2_xdac_0 ../Devices
+use XM3_xdrv_b2_xdac  XM3_xdrv_b2_xdac_0 devices
 timestamp 1698067942
 transform 1 0 13976 0 1 14529
 box -246 -679 246 679
-use XM3_xdrv_dummy_xdac  XM3_xdrv_dummy_xdac_0 ../Devices
+use XM3_xdrv_dummy_xdac  XM3_xdrv_dummy_xdac_0 devices
 timestamp 1698067942
 transform 0 -1 16415 1 0 11972
 box -246 -679 246 679
-use XM3_xtgbyp  XM3_xtgbyp_0 ../Devices
+use XM3_xtgbyp  XM3_xtgbyp_0 devices
 timestamp 1698067942
 transform -1 0 18974 0 -1 11932
 box -246 -1179 246 1179
-use XM3_xtgdac  XM3_xtgdac_0 ../Devices
+use XM3_xtgdac  XM3_xtgdac_0 devices
 timestamp 1698067942
 transform 1 0 19957 0 1 15527
 box -246 -1179 246 1179
-use XM3_xtgro  XM3_xtgro_0 ../Devices
+use XM3_xtgro  XM3_xtgro_0 devices
 timestamp 1698067942
 transform 1 0 14230 0 1 9297
 box -246 -1179 246 1179
-use XM4A_xdrv_b0_xdac  XM4A_xdrv_b0_xdac_0 ../Devices
+use XM4A_xdrv_b0_xdac  XM4A_xdrv_b0_xdac_0 devices
 timestamp 1698067942
 transform 0 1 14798 -1 0 11479
 box -246 -684 246 684
-use XM4A_xdrv_b1_xdac  XM4A_xdrv_b1_xdac_0 ../Devices
+use XM4A_xdrv_b1_xdac  XM4A_xdrv_b1_xdac_0 devices
 timestamp 1698067942
 transform 0 -1 16383 1 0 13210
 box -246 -684 246 684
-use XM4A_xdrv_b2_xdac  XM4A_xdrv_b2_xdac_0 ../Devices
+use XM4A_xdrv_b2_xdac  XM4A_xdrv_b2_xdac_0 devices
 timestamp 1698067942
 transform 1 0 13484 0 1 14523
 box -246 -684 246 684
-use XM4A_xdrv_dummy_xdac  XM4A_xdrv_dummy_xdac_0 ../Devices
+use XM4A_xdrv_dummy_xdac  XM4A_xdrv_dummy_xdac_0 devices
 timestamp 1698067942
 transform 0 -1 16421 1 0 11480
 box -246 -684 246 684
-use XM4A_xtgbyp  XM4A_xtgbyp_0 ../Devices
+use XM4A_xtgbyp  XM4A_xtgbyp_0 devices
 timestamp 1698067942
 transform -1 0 19466 0 -1 11926
 box -246 -1184 246 1184
-use XM4A_xtgdac  XM4A_xtgdac_0 ../Devices
+use XM4A_xtgdac  XM4A_xtgdac_0 devices
 timestamp 1698067942
 transform 1 0 19465 0 1 15533
 box -246 -1184 246 1184
-use XM4A_xtgro  XM4A_xtgro_0 ../Devices
+use XM4A_xtgro  XM4A_xtgro_0 devices
 timestamp 1698067942
 transform 1 0 13738 0 1 9303
 box -246 -1184 246 1184
-use XM4B_xdrv_b0_xdac  XM4B_xdrv_b0_xdac_0 ../Devices
+use XM4B_xdrv_b0_xdac  XM4B_xdrv_b0_xdac_0 devices
 timestamp 1698067942
 transform 0 1 14798 -1 0 11971
 box -246 -684 246 684
-use XM4B_xdrv_b1_xdac  XM4B_xdrv_b1_xdac_0 ../Devices
+use XM4B_xdrv_b1_xdac  XM4B_xdrv_b1_xdac_0 devices
 timestamp 1698067942
 transform 0 -1 16383 1 0 12718
 box -246 -684 246 684
-use XM4B_xdrv_b2_xdac  XM4B_xdrv_b2_xdac_0 ../Devices
+use XM4B_xdrv_b2_xdac  XM4B_xdrv_b2_xdac_0 devices
 timestamp 1698067942
 transform 1 0 12992 0 1 14523
 box -246 -684 246 684
-use XM4B_xdrv_dummy_xdac  XM4B_xdrv_dummy_xdac_0 ../Devices
+use XM4B_xdrv_dummy_xdac  XM4B_xdrv_dummy_xdac_0 devices
 timestamp 1698067942
 transform 0 -1 16421 1 0 10988
 box -246 -684 246 684
-use XM4B_xtgbyp  XM4B_xtgbyp_0 ../Devices
+use XM4B_xtgbyp  XM4B_xtgbyp_0 devices
 timestamp 1698067942
 transform -1 0 19958 0 -1 11926
 box -246 -1184 246 1184
-use XM4B_xtgdac  XM4B_xtgdac_0 ../Devices
+use XM4B_xtgdac  XM4B_xtgdac_0 devices
 timestamp 1698067942
 transform 1 0 18973 0 1 15533
 box -246 -1184 246 1184
-use XM4B_xtgro  XM4B_xtgro_0 ../Devices
+use XM4B_xtgro  XM4B_xtgro_0 devices
 timestamp 1698067942
 transform 1 0 13246 0 1 9303
 box -246 -1184 246 1184
-use XMcap1_xro1_xringosc  XMcap1_xro1_xringosc_0 ../Devices
+use XMcap1_xro1_xringosc  XMcap1_xro1_xringosc_0 devices
 timestamp 1698067942
 transform -1 0 18989 0 -1 3117
 box -396 -1179 396 1179
-use XMcap1_xro2_xringosc  XMcap1_xro2_xringosc_0 ../Devices
+use XMcap1_xro2_xringosc  XMcap1_xro2_xringosc_0 devices
 timestamp 1698067942
 transform 1 0 16597 0 1 5475
 box -396 -1179 396 1179
-use XMcap1_xro3_xringosc  XMcap1_xro3_xringosc_0 ../Devices
+use XMcap1_xro3_xringosc  XMcap1_xro3_xringosc_0 devices
 timestamp 1698067942
 transform 0 -1 14768 1 0 2965
 box -396 -1179 396 1179
-use XMcap2_xro1_xringosc  XMcap2_xro1_xringosc_0 ../Devices
+use XMcap2_xro1_xringosc  XMcap2_xro1_xringosc_0 devices
 timestamp 1698067942
 transform 0 1 17385 -1 0 2803
 box -396 -1184 396 1184
-use XMcap2_xro2_xringosc  XMcap2_xro2_xringosc_0 ../Devices
+use XMcap2_xro2_xringosc  XMcap2_xro2_xringosc_0 devices
 timestamp 1698067942
 transform 0 -1 18201 1 0 5789
 box -396 -1184 396 1184
-use XMcap2_xro3_xringosc  XMcap2_xro3_xringosc_0 ../Devices
+use XMcap2_xro3_xringosc  XMcap2_xro3_xringosc_0 devices
 timestamp 1698067942
 transform -1 0 14454 0 -1 4569
 box -396 -1184 396 1184
-use XMpowerdn_xro1_xringosc  XMpowerdn_xro1_xringosc_0 ../Devices
+use XMpowerdn_xro1_xringosc  XMpowerdn_xro1_xringosc_0 devices
 timestamp 1698067942
 transform 0 1 17385 -1 0 1643
 box -296 -1184 296 1184
-use XMpowerdn_xro2_xringosc  XMpowerdn_xro2_xringosc_0 ../Devices
+use XMpowerdn_xro2_xringosc  XMpowerdn_xro2_xringosc_0 devices
 timestamp 1698067942
 transform 0 -1 18201 1 0 6949
 box -296 -1184 296 1184
-use XMpowerdn_xro3_xringosc  XMpowerdn_xro3_xringosc_0 ../Devices
+use XMpowerdn_xro3_xringosc  XMpowerdn_xro3_xringosc_0 devices
 timestamp 1698067942
 transform -1 0 13294 0 -1 4569
 box -296 -1184 296 1184
-use XR1  XR1_0 ../Devices
+use XR1  XR1_0 devices
 timestamp 1698067942
 transform 1 0 8461 0 1 21333
 box -201 -633 201 633
-use XR2  XR2_0 ../Devices
+use XR2  XR2_0 devices
 timestamp 1698067942
 transform 1 0 7901 0 1 21333
 box -201 -633 201 633
-use XR3  XR3_0 ../Devices
+use XR3  XR3_0 devices
 timestamp 1698067942
 transform 1 0 7361 0 1 21333
 box -201 -633 201 633
-use XR4  XR4_0 ../Devices
+use XR4  XR4_0 devices
 timestamp 1698067942
 transform 1 0 6781 0 1 21333
 box -201 -633 201 633
-use XR5  XR5_0 ../Devices
+use XR5  XR5_0 devices
 timestamp 1698067942
 transform 1 0 6241 0 1 21333
 box -201 -633 201 633
-use XR6  XR6_0 ../Devices
+use XR6  XR6_0 devices
 timestamp 1698067942
 transform 1 0 5661 0 1 21333
 box -201 -633 201 633
-use XR7  XR7_1 ../Devices
+use XR7  XR7_1 devices
 timestamp 1698067942
 transform 1 0 5121 0 1 21333
 box -201 -633 201 633
-use XR8  XR8_0 ../Devices
+use XR8  XR8_0 devices
 timestamp 1698067942
 transform 1 0 4581 0 1 21333
 box -201 -633 201 633
-use XR9  XR9_0 ../Devices
+use XR9  XR9_0 devices
 timestamp 1698067942
 transform 1 0 12901 0 1 21333
 box -201 -633 201 633
-use XR10  XR10_0 ../Devices
+use XR10  XR10_0 devices
 timestamp 1698067942
 transform 1 0 12341 0 1 21333
 box -201 -633 201 633
-use XR11  XR11_0 ../Devices
+use XR11  XR11_0 devices
 timestamp 1698067942
 transform 1 0 11781 0 1 21333
 box -201 -633 201 633
-use XR12  XR12_0 ../Devices
+use XR12  XR12_0 devices
 timestamp 1698067942
 transform 1 0 11221 0 1 21333
 box -201 -633 201 633
-use XR13  XR13_0 ../Devices
+use XR13  XR13_0 devices
 timestamp 1698067942
 transform 1 0 10701 0 1 21333
 box -201 -633 201 633
-use XR14  XR14_0 ../Devices
+use XR14  XR14_0 devices
 timestamp 1698067942
 transform 1 0 10161 0 1 21333
 box -201 -633 201 633
-use XR15  XR15_0 ../Devices
+use XR15  XR15_0 devices
 timestamp 1698067942
 transform 1 0 9581 0 1 21333
 box -201 -633 201 633
-use XR16  XR16_0 ../Devices
+use XR16  XR16_0 devices
 timestamp 1698067942
 transform 1 0 9021 0 1 21333
 box -201 -633 201 633
-use XR17  XR17_0 ../Devices
+use XR17  XR17_0 devices
 timestamp 1698067942
 transform 1 0 17301 0 1 21333
 box -201 -633 201 633
-use XR18  XR18_0 ../Devices
+use XR18  XR18_0 devices
 timestamp 1698067942
 transform 1 0 16741 0 1 21333
 box -201 -633 201 633
-use XR19  XR19_0 ../Devices
+use XR19  XR19_0 devices
 timestamp 1698067942
 transform 1 0 16201 0 1 21333
 box -201 -633 201 633
-use XR20  XR20_0 ../Devices
+use XR20  XR20_0 devices
 timestamp 1698067942
 transform 1 0 15661 0 1 21333
 box -201 -633 201 633
-use XR21  XR21_0 ../Devices
+use XR21  XR21_0 devices
 timestamp 1698067942
 transform 1 0 15101 0 1 21333
 box -201 -633 201 633
-use XR22  XR22_0 ../Devices
+use XR22  XR22_0 devices
 timestamp 1698067942
 transform 1 0 14581 0 1 21333
 box -201 -633 201 633
-use XR23  XR23_0 ../Devices
+use XR23  XR23_0 devices
 timestamp 1698067942
 transform 1 0 14001 0 1 21333
 box -201 -633 201 633
-use XR24  XR24_0 ../Devices
+use XR24  XR24_0 devices
 timestamp 1698067942
 transform 1 0 13441 0 1 21333
 box -201 -633 201 633
-use XRSTR_0_xdac  XRSTR_0_xdac_0 ../Devices
+use XRSTR_0_xdac  XRSTR_0_xdac_0 devices
 timestamp 1698067942
 transform 0 1 14960 -1 0 13586
 box -1114 -738 1114 738
