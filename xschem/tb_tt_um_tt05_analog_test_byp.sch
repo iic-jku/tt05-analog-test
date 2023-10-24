@@ -1,4 +1,4 @@
-v {xschem version=3.4.4 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -202,7 +202,7 @@ m=1}
 C {devices/vsource.sym} 460 -230 0 0 {name=Vena value="0 pwl(0 0 10u 0 10.01u 1.8)"
 
 }
-C {/foss/designs/xschem/tt05_analog_test.sym} 1640 -730 0 0 {name=xdut}
+C {/foss/designs/xschem/tt_um_tt05_analog_test.sym} 1640 -730 0 0 {name=xdut}
 C {devices/noconn.sym} 1790 -1040 2 0 {name=l7}
 C {devices/noconn.sym} 1790 -1020 2 0 {name=l8}
 C {devices/noconn.sym} 1790 -1000 2 0 {name=l9}
