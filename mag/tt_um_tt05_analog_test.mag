@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1698132957
+timestamp 1698137664
 << locali >>
 rect 4546 21109 4616 21115
 rect 4546 21051 4551 21109
@@ -5136,13 +5136,11 @@ flabel metal4 s 22510 22104 22570 22304 0 FreeSans 480 90 0 0 ui_in[6]
 port 17 nsew signal input
 flabel metal4 s 22510 22104 22570 22304 0 FreeSans 480 90 0 0 ui_in[6]
 port 17 nsew signal input
-rlabel metal4 18930 576 24794 21604 1 VGND
-port 52 n
 rlabel metal4 11868 630 17732 21658 1 VPWR
-port 53 n
-flabel metal4 14400 17200 14800 17600 1 FreeSerif 3200 0 0 0 VPWR
-port 53 n
-flabel metal4 21600 17200 22000 17600 1 FreeSerif 3200 0 0 0 VGND
+rlabel metal4 18930 576 24794 21604 1 VGND
+flabel metal4 14400 800 14800 21600 1 FreeSerif 3200 0 0 0 VPWR
+port 51 n
+flabel metal4 21600 800 22000 21600 1 FreeSerif 3200 0 0 0 VGND
 port 52 n
 << properties >>
 string FIXED_BBOX 0 0 31464 22304
