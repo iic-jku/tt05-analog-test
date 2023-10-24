@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt05_analog_test
+MACRO tt_um_tt05_analog_test
   CLASS BLOCK ;
-  FOREIGN tt05_analog_test ;
+  FOREIGN tt_um_tt05_analog_test ;
   ORIGIN 0.000 0.000 ;
   SIZE 157.320 BY 111.520 ;
   PIN clk
@@ -427,36 +427,22 @@ MACRO tt05_analog_test
   PIN VGND
     USE GROUND ;
     PORT
-      LAYER met1 ;
-        RECT 91.940 105.400 92.000 105.440 ;
-    END
-    PORT
       LAYER met4 ;
-        RECT 94.650 2.880 123.970 108.020 ;
+        RECT 103.500 2.880 123.970 108.020 ;
     END
   END VGND
   PIN VPWR
     USE POWER ;
     PORT
-      LAYER met1 ;
-        RECT 68.650 7.700 68.710 7.760 ;
-    END
-    PORT
       LAYER met4 ;
-        RECT 59.340 3.150 88.660 108.290 ;
+        RECT 67.390 3.150 79.960 108.290 ;
     END
   END VPWR
   OBS
       LAYER li1 ;
         RECT 22.480 5.645 100.840 109.000 ;
       LAYER met1 ;
-        RECT 22.625 105.720 102.990 111.400 ;
-        RECT 22.625 105.120 91.660 105.720 ;
-        RECT 92.280 105.120 102.990 105.720 ;
-        RECT 22.625 8.040 102.990 105.120 ;
-        RECT 22.625 7.420 68.370 8.040 ;
-        RECT 68.990 7.420 102.990 8.040 ;
-        RECT 22.625 6.165 102.990 7.420 ;
+        RECT 22.625 6.165 102.990 111.400 ;
       LAYER met2 ;
         RECT 22.600 7.570 129.800 111.400 ;
       LAYER met3 ;
@@ -508,10 +494,10 @@ MACRO tt05_analog_test
         RECT 135.330 110.120 136.990 111.515 ;
         RECT 138.090 110.120 152.565 111.515 ;
         RECT 21.770 108.690 152.565 110.120 ;
-        RECT 21.770 2.750 58.940 108.690 ;
-        RECT 89.060 108.420 152.565 108.690 ;
-        RECT 89.060 2.750 94.250 108.420 ;
-        RECT 21.770 2.480 94.250 2.750 ;
+        RECT 21.770 2.750 66.990 108.690 ;
+        RECT 80.360 108.420 152.565 108.690 ;
+        RECT 80.360 2.750 103.100 108.420 ;
+        RECT 21.770 2.480 103.100 2.750 ;
         RECT 124.370 2.480 152.565 108.420 ;
         RECT 21.770 1.400 152.565 2.480 ;
         RECT 21.770 0.345 24.600 1.400 ;
@@ -522,6 +508,6 @@ MACRO tt05_analog_test
         RECT 110.640 0.345 130.400 1.400 ;
         RECT 131.800 0.345 151.560 1.400 ;
   END
-END tt05_analog_test
+END tt_um_tt05_analog_test
 END LIBRARY
 
