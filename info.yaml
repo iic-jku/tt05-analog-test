@@ -28,21 +28,21 @@ documentation:
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
-      A ring oscillator (ca. 500kHz) produces a square-wave signal available at ua[0].
-      A 3-bit R-2R DAC produces a dc voltage availabel at ua[1].
+      A ring oscillator (ca. 500kHz) produces a square-wave signal available at UA[0].
+      A 3-bit R-2R DAC produces a dc voltage availabel at UA[1].
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      Enable the respective blocks, and enable the transmission gates to connect the block outputs to ua[0] and ua[1], respectively. The DAC voltage can be changed by setting the digital inputs accordingly.
+      Enable the respective blocks, and enable the transmission gates to connect the block outputs to UA[0] and UA[1], respectively. The DAC voltage can be changed by setting the digital inputs accordingly.
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
     - IN[2:0]: Digital input for DAC
-    - IN[3]: Enable TG for DAC output to ua[1]
+    - IN[3]: Enable TG for DAC output to UA[1]
     - IN[4]: Not used
-    - IN[5]: Enable TG for ringo output to ua[0]
+    - IN[5]: Enable TG for ringo output to UA[0]
     - IN[6]: Enable ringo 
-    - IN[7]: Short ua[0] and ua[1] for testing
+    - IN[7]: Short UA[0] and UA[1] for testing
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
     - UA[0]: Ringo output (if TG enabled)
