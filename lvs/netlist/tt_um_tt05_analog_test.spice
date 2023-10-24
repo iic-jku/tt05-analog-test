@@ -1,5 +1,4 @@
-** sch_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/tt05_analog_test.sch
-.subckt tt05_analog_test VPWR VGND ua[0] ena clk rst_n ua[1] ua[2] ua[3] ua[4] ua[5] ua[6] ua[7]
+.subckt tt_um_tt05_analog_test VPWR VGND ua[0] ena clk rst_n ua[1] ua[2] ua[3] ua[4] ua[5] ua[6] ua[7]
 + uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] ui_in[0] ui_in[1] ui_in[2]
 + ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7] uio_in[0] uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5]
 + uio_in[6] uio_in[7] uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7]
@@ -107,8 +106,6 @@ xtgbyp VPWR ua[0] ua[1] ui_in[7] VGND tg
 .ends
 
 * expanding   symbol:  dac.sym # of pins=6
-** sym_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/dac.sym
-** sch_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/dac.sch
 .subckt dac vdd vout in2 in1 in0 vss
 *.ipin vdd
 *.ipin vss
@@ -140,8 +137,6 @@ XRDummy2 vss vss vss sky130_fd_pr__res_xhigh_po_0p35 L=1.4 mult=1 m=1
 
 
 * expanding   symbol:  ringosc.sym # of pins=4
-** sym_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/ringosc.sym
-** sch_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/ringosc.sch
 .subckt ringosc vdd clk_out ena vss
 *.ipin vdd
 *.ipin vss
@@ -163,8 +158,6 @@ xbuf3 vdd ph3 clk_out vss ringosc_buf
 
 
 * expanding   symbol:  tg.sym # of pins=5
-** sym_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/tg.sym
-** sch_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/tg.sch
 .subckt tg vdd s1 s2 tgon vss
 *.ipin vdd
 *.ipin vss
@@ -190,8 +183,6 @@ XM2 tgon_n tgon vdd vdd sky130_fd_pr__pfet_01v8 L=0.5 W=2 nf=1 ad='int((nf+1)/2)
 
 
 * expanding   symbol:  dac_drv.sym # of pins=4
-** sym_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/dac_drv.sym
-** sch_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/dac_drv.sch
 .subckt dac_drv vdd in out vss
 *.ipin vdd
 *.ipin vss
@@ -219,8 +210,6 @@ XM4B out net1 vdd vdd sky130_fd_pr__pfet_01v8 L=0.5 W=5 nf=1 ad='int((nf+1)/2) *
 
 
 * expanding   symbol:  ringosc_delay.sym # of pins=5
-** sym_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/ringosc_delay.sym
-** sch_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/ringosc_delay.sch
 .subckt ringosc_delay vdd ena in out vss
 *.ipin vdd
 *.ipin vss
@@ -249,8 +238,6 @@ XMpowerdn in ena vdd vdd sky130_fd_pr__pfet_01v8 L=1 W=10 nf=1 ad='int((nf+1)/2)
 
 
 * expanding   symbol:  ringosc_buf.sym # of pins=4
-** sym_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/ringosc_buf.sym
-** sch_path: /home/jakob/Documents/tt05-analog-test-main_v4/xschem/ringosc_buf.sch
 .subckt ringosc_buf vdd in out vss
 *.ipin vdd
 *.ipin vss

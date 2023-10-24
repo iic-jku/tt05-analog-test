@@ -11,6 +11,7 @@ Two test outputs:
 * Clock output (rail-rail) at ca. 500kHz
 * DAC voltage vout=1.8V / 8 * in (0...7)
 
-Top schematic cell: `xschem/tt05_analog_test.sch`
+Top schematic cell: `xschem/tt_um_tt05_analog_test.sch`
 
-Layout: _in progress_
+Layout: `mag/tt_um_tt05_analog_test.mag`
+
